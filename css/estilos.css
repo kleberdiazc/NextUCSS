@@ -9,8 +9,38 @@ header {
 	margin-bottom: 1vh;
 	border-radius: 1.6260162601626016vh 1.6260162601626016vh 0vh 0vh;
 	background-color: #5b7989;
+	width: 100%;
 
 }
+
+
+
+li {
+    display: inline;
+		float: right;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 1vw 1vh;
+    text-decoration: none;
+
+}
+ul{
+	margin: 1%;
+	padding: 3%;
+
+}
+nav{
+	float: right;
+	width: 40%;
+	padding-left: 1%;
+	font-size: 1em;
+	color: white;
+	text-shadow: 2px #02010a;
+
+}
+
 
 #contenido {
 	margin: 1%;
@@ -21,6 +51,9 @@ header h1 {
 	font-size: 1.5em;
 	color: white;
 	text-shadow: 2px #02010a;
+	float: left;
+	width: 50%;
+
 }
 
 footer {
