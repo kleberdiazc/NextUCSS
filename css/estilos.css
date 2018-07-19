@@ -31,14 +31,14 @@ ul{
 	padding: 3%;
 
 }
-nav{
-	float: right;
-	width: 40%;
-	padding-left: 1%;
-	font-size: 1em;
-	color: white;
-	text-shadow: 2px #02010a;
 
+footer {
+	font-size: 0.8em;
+	border-top: solid 2px #1f47a8;
+	text-align: center;
+	background-color:#C6d5c5;
+	padding: 1vh 1vw;
+	width: 100%;
 }
 
 header h1 {
@@ -48,16 +48,6 @@ header h1 {
 	text-shadow: 2px #02010a;
 	float: left;
 	width: 50%;
-
-}
-
-footer {
-	font-size: 0.8em;
-	border-top: solid 2px #1f47a8;
-	text-align: center;
-	background-color:#C6d5c5;
-	padding: 1vh 1vw;
-	width: 100%;
 }
 
 .Segundo-Imagenes div  {
@@ -93,7 +83,7 @@ footer {
 	width: 100%;
 }
 
-@media(min-width:40px){
+@media(max-width:500px){
 
 	img{
     max-width: 100%;
@@ -103,9 +93,29 @@ footer {
 		 display: flex;
 		 flex-direction: column;
 	}
+  nav {
+		width: 50%;
+		font-size: 1em;
+		color: white;
+		text-shadow: 2px #02010a;
+	}
+	header h1 {
+		padding-left: 1%;
+		font-size: 1.5em;
+		color: white;
+		text-shadow: 2px #02010a;
+		float: left;
+		width: 100%;
+		text-align: center;
 
+	}
 
 }
+
+
+
+
+
 @media (min-width: 800px) {
 	.Segundo-Imagenes {
 		display: flex;
@@ -115,7 +125,28 @@ footer {
 		 display: flex;
 		 flex-direction: row;
 	}
+	header h1 {
+		padding-left: 1%;
+		font-size: 1.5em;
+		color: white;
+		text-shadow: 2px #02010a;
+		float: left;
+		width: 50%;
+
+	}
+	nav{
+		float: right;
+		width: 40%;
+		padding-left: 1%;
+		font-size: 1em;
+		color: white;
+		text-shadow: 2px #02010a;
+
+	}
 }
+
+
+
 h3{
 	text-align: center;
 }
