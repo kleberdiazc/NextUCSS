@@ -39,6 +39,7 @@ footer {
 	background-color:#C6d5c5;
 	padding: 1vh 1vw;
 	width: 100%;
+	border-radius: 0px 0px 10px 10px;
 }
 
 header h1 {
