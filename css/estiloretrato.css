@@ -1,8 +1,21 @@
+
+@keyframes slide {
+0% {
+	margin-top: 150%;
+}
+60% {
+	margin-top: -5%;
+}
+100% {
+	margin-top: 0%;
+	}
+}
 body {
 	font-family: 'Dancing Script', cursive;
 	width: 90%;
 	margin-left: 5%;
 	background-color: #02010a;
+  	-webkit-animation: slide 1s;
 }
 
 header {
@@ -28,8 +41,12 @@ li a {
     color: white;
     text-align: center;
     padding: 1vw 1vh;
-    text-decoration: underline;
+    text-decoration: none;
 
+}
+
+.refpaisaje,.refindex{
+	text-decoration: underline;
 }
 ul{
 	margin: 1%;
